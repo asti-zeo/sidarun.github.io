@@ -1440,6 +1440,14 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 768px) {
+			#header .logo img {
+				width: 5rem; /* smaller width for mobile */
+				height: 5rem; /* smaller height for mobile */
+				margin-top: -3px; /* adjust as needed */
+			}
+		}
+
 		@media screen and (max-width: 736px) {
 
 			#header > * {
